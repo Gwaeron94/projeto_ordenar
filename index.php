@@ -1,6 +1,6 @@
 <?php
     try {
-        $pdo = new PDO("mysql:dbname=projeto_ordenar;hot=localhost", "root", "");
+        $pdo = new PDO("mysql:dbname=projeto_ordenar;host=localhost", "root", "");
     } catch (PDOExceptoion $e) {
         echo "Erro: ".$e->getMessage();
         exit;
